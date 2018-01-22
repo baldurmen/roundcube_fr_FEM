@@ -11,6 +11,9 @@ langue.
 Ce dépôt git a donc comme but d'offrir une traduction français féminisée de
 l'interface web de gestion de courriels Roundcube.
 
+La méthode de féminisation choisie est celle avec des traits d'union, par
+example: `étudiant-e-s`, `politicien-ne-s`, etc.
+
 Le code de locale offert pour cette traduction est `fr_FEM`.
 
 ## English
