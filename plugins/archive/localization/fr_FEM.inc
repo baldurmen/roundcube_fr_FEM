@@ -27,7 +27,7 @@ $labels['archivetypeyear'] = 'Année (ex. Archives/2012)';
 $labels['archivetypemonth'] = 'Mois (ex. Archives/2012/06)';
 $labels['archivetypetbmonth'] = 'Mois - compatible avec Thunderbird (p.ex. Archive/2012/2012-06)';
 $labels['archivetypefolder'] = 'Dossier original';
-$labels['archivetypesender'] = 'Courriel de l\'expéditeur';
+$labels['archivetypesender'] = 'Courriel de l\'expéditrice ou de l\'expéditeur';
 $labels['unkownsender'] = 'inconnu';
 $labels['readonarchive'] = 'Marquer le courriel comme lu lors de l\'archivage';
 ?>
