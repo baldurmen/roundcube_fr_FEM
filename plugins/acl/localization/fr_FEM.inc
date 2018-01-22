@@ -17,13 +17,13 @@
 */
 $labels['sharing'] = 'Partage';
 $labels['myrights'] = 'Droits d\'accès';
-$labels['username'] = 'Utilisateur :';
+$labels['username'] = 'Utilisatrice / Utilisateur :';
 $labels['advanced'] = 'Mode avancé';
 $labels['newuser'] = 'Ajouter une entrée';
 $labels['editperms'] = 'Modifier les permissions';
 $labels['actions'] = 'Actions des droits d\'accès...';
-$labels['anyone'] = 'Tous les utilisateurs (n\'importe qui)';
-$labels['anonymous'] = 'Invités (anonyme)';
+$labels['anyone'] = 'Tout le monde';
+$labels['anonymous'] = 'Invité-e-s (anonyme)';
 $labels['identifier'] = 'Identifiant';
 $labels['acll'] = 'Consultation';
 $labels['aclr'] = 'Lire les courriels';
@@ -92,7 +92,7 @@ $messages['createsuccess'] = 'Les droits d\'accès ont été ajoutés avec succ�
 $messages['updateerror'] = 'Impossible de mettre à jour les droits d\'accès';
 $messages['deleteerror'] = 'Impossible de supprimer les droits d\'accès';
 $messages['createerror'] = 'Impossible d\'ajouter des droits d\'accès';
-$messages['deleteconfirm'] = 'Êtes-vous sûr de vouloir retirer les droits d\'accès des utilisateurs sélectionnés ?';
+$messages['deleteconfirm'] = 'Êtes-vous sûr de vouloir retirer les droits d\'accès des utilisatrices ou des utilisateurs sélectionnés ?';
 $messages['norights'] = 'Aucun droit n\'a été spécifié !';
-$messages['nouser'] = 'Aucun nom d\'utilisateur n\'a été spécifié !';
+$messages['nouser'] = 'Aucun nom d\'utilisatrice ou d\'utilisateur n\'a été spécifié !';
 ?>
