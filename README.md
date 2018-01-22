@@ -73,8 +73,5 @@ Roundcube repository.
 
 ## Roundcube compatibility
 
-Unless explicitly expressed, this translation is compatible with the latest
-Roundcube version.
-
-I've setup RSS feeds to watch commits on the original translation files in
-Roundcube to stay up-to-date.
+This translation aims to be compatible with the latest Roundcube release. For
+more details on compatibility, see the CHANGELOG.
