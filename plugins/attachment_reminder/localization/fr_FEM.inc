@@ -6,6 +6,7 @@
  |                                                                       |
  | Localization file of the Roundcube Webmail Archive plugin             |
  | Copyright (C) 2013, The Roundcube Dev Team                            |
+ | Copyright (C) 2018, Louis-Philippe Véronneau                          |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -13,7 +14,6 @@
  |                                                                       |
  +-----------------------------------------------------------------------+
 
- For translation see https://www.transifex.com/projects/p/roundcube-webmail/resource/plugin-attachment_reminder/
 */
 $messages['missingattachment'] = "Pièce jointe manquante ?";
 $messages['forgotattachment'] = "Avez-vous oublié de joindre un fichier ?";
