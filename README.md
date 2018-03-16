@@ -64,7 +64,8 @@ Please note that the `/` at the end of the paths is important.
 ## Support for other languages
 
 If you speak another language than French and wish to add support for other
-gender-neutral translations, don't hesitate to open a Pull Request!
+gender-neutral translations, don't hesitate to open a Pull Request! I'll gladly
+make modifications to this repository to support multiple languages.
 
 You can see what files need to be translated by looking at [this file][] in the
 Roundcube repository.
@@ -73,5 +74,10 @@ Roundcube repository.
 
 ## Roundcube compatibility
 
-This translation aims to be compatible with the latest Roundcube release. For
-more details on compatibility, see the CHANGELOG.
+Releases for this localisation follow the same versioning scheme as Roundcube.
+Release 1.2.3 should thus be compatible with Roundcube 1.2.3.
+
+## Diff tool
+
+You can use the `roundcube_diff.sh` script in this repository to generate a
+diff of the localisation between different Roundcube releases.
