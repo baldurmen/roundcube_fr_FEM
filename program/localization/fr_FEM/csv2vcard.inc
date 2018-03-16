@@ -18,8 +18,8 @@
 */
 $map = array();
 $map['anniversary'] = "Anniversaire de mariage ou fête";
-$map['assistants_name'] = "Nom de l''assistant-e-";
-$map['assistants_phone'] = "Téléphone de l''assistant-e-";
+$map['assistants_name'] = "Nom de l''assistant‧e";
+$map['assistants_phone'] = "Téléphone de l''assistant‧e";
 $map['birthday'] = "Anniversaire";
 $map['business_city'] = "Ville (bureau)";
 $map['business_countryregion'] = "Pays/Région (bureau)";
@@ -59,7 +59,7 @@ $map['other_state'] = "Dép/Région (autre)";
 $map['other_street'] = "Rue (autre)";
 $map['pager'] = "Récepteur de radiomessagerie";
 $map['primary_phone'] = "Téléphone principal";
-$map['spouse'] = "Conjoint-e";
+$map['spouse'] = "Conjoint‧e";
 $map['suffix'] = "Suffixe";
 $map['title'] = "Titre";
 $map['web_page'] = "Page Web";
