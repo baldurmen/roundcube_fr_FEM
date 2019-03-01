@@ -6,7 +6,7 @@
  |                                                                       |
  | Localization file of the Roundcube Webmail client                     |
  | Copyright (C) 2005-2017, The Roundcube Dev Team                       |
- | Copyright (C) 2018, Louis-Philippe Véronneau                          |
+ | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -203,7 +203,7 @@ $labels['tz:america:sao_paulo'] = 'São Paulo';
 $labels['tz:america:scoresbysund'] = 'Scoresbysund';
 $labels['tz:america:sitka'] = 'Sitka';
 $labels['tz:america:st_barthelemy'] = 'Saint Barthélemy';
-$labels['tz:america:st_johns'] = "Saint John's";
+$labels['tz:america:st_johns'] = "Saint John’s";
 $labels['tz:america:st_kitts'] = 'Saint Kitts';
 $labels['tz:america:st_lucia'] = 'Sainte-Lucie';
 $labels['tz:america:st_thomas'] = 'Saint Thomas';
@@ -223,7 +223,7 @@ $labels['tz:america:yellowknife'] = 'Yellowknife';
 $labels['tz:antarctica'] = 'Antarctique';
 $labels['tz:antarctica:casey'] = 'Casey';
 $labels['tz:antarctica:davis'] = 'Davis';
-$labels['tz:antarctica:dumontdurville'] = "Dumont d'Urville";
+$labels['tz:antarctica:dumontdurville'] = "Dumont d’Urville";
 $labels['tz:antarctica:macquarie'] = 'Macquarie';
 $labels['tz:antarctica:mawson'] = 'Mawson';
 $labels['tz:antarctica:mcmurdo'] = 'McMurdo';

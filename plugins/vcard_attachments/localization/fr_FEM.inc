@@ -6,7 +6,7 @@
  |                                                                       |
  | Localization file of the Roundcube Webmail Vcard Attachments plugin   |
  | Copyright (C) 2012-2013, The Roundcube Dev Team                       |
- | Copyright (C) 2018, Louis-Philippe Véronneau                          |
+ | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -15,8 +15,10 @@
  +-----------------------------------------------------------------------+
 
 */
-$labels['addvcardmsg'] = 'Ajouter la vCard au carnet d\'adresses';
-$labels['vcardsavefailed'] = 'Impossible d\'enregistrer la vCard';
+$labels['addvcardmsg'] = 'Ajouter la vCard au carnet d’adresses';
+$labels['vcardsavefailed'] = 'Impossible d’enregistrer la vCard';
 $labels['attachvcard'] = 'Joindre la vCard';
+$labels['vcardattached'] = 'Le fichier vCard a été joint.';
 $labels['vcard'] = 'vCard';
+$labels['forwardvcard'] = 'Transférer la vCard';
 ?>
