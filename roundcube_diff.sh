@@ -53,13 +53,13 @@ git -C $repo_path checkout $final > /dev/null 2>&1
 # Check if there are new localisation files in the new release
 echo "Checking if there are new localisation files"
 echo "#\n# NEW LOCALIZATION FILES\n#\n" > $output
-git -C $repo_path diff $initial $final -- .tx/config >> $output
+git -C $repo_path diff --color $initial $final -- .tx/config >> $output
 
 # Show diffs for the localisation files
 echo "Generating diffs for the localisation files between $initial and $final"
 echo "\n#\n# LOCALISATION FILES DIFF BETWEEN $initial and $final\n#\n" >> $output
 cat "$repo_path/.tx/config" | grep file_filter | sed "s/file_filter = //; s/<lang>/$locale/" | while read -r file
 do
-  git -C $repo_path diff $initial $final -- $file >> $output
+  git -C $repo_path diff --color $initial $final -- $file >> $output
 done
-git -C $repo_path diff $initial $final -- program/localisation/$locale/csv2vcard.inc >> $output
+git -C $repo_path diff --color $initial $final -- program/localisation/$locale/csv2vcard.inc >> $output
