@@ -2,16 +2,18 @@
 
 /*
  +-----------------------------------------------------------------------+
- | Localization file of the Roundcube Webmail Subscriptions plugin       |
+ | Localization file of the Roundcube Webmail Emoticons plugin           |
  |                                                                       |
  | Copyright (C) The Roundcube Dev Team                                  |
- | Copyright (C) 2018, Louis-Philippe Véronneau                          |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
  | See the README file for a full license statement.                     |
  +-----------------------------------------------------------------------+
 
+ For translation see https://www.transifex.com/projects/p/roundcube-webmail/resource/plugin-emoticons/
 */
 
-$labels['useimapsubscriptions']  = 'Utiliser les abonnements IMAP';
+$labels['emoticonsdisplay'] = 'Afficher les frimousses dans les messages texte en clair';
+$labels['emoticonscompose'] = 'Activer les frimousses';
+?>

@@ -2,10 +2,9 @@
 
 /*
  +-----------------------------------------------------------------------+
- | plugins/markasjunk/localization/<lang>.inc                            |
- |                                                                       |
  | Localization file of the Roundcube Webmail Mark-As-Junk plugin        |
- | Copyright (C) 2012-2018, The Roundcube Dev Team                       |
+ |                                                                       |
+ | Copyright (C) The Roundcube Dev Team                                  |
  | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
@@ -15,6 +14,7 @@
  +-----------------------------------------------------------------------+
 
 */
+
 $labels['buttonjunk'] = 'Ce courriel est indésirable';
 $labels['asjunk'] = 'Comme indésirable';
 $labels['markasjunk'] = 'Marquer comme indésirable';
