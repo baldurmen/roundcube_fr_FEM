@@ -5,7 +5,7 @@
  | Localization file of the Roundcube Webmail Archive plugin             |
  |                                                                       |
  | Copyright (C) The Roundcube Dev Team                                  |
- | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
+ | Copyright (C) 2018-2021, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -26,7 +26,8 @@ $labels['archivetypeyear'] = 'Année (p. ex. Archives/2012)';
 $labels['archivetypemonth'] = 'Mois (p. ex. Archives/2012/06)';
 $labels['archivetypetbmonth'] = 'Mois – compatible avec Thunderbird (p.ex. Archive/2012/2012-06)';
 $labels['archivetypefolder'] = 'Dossier original';
+$labels['archivetypefolderyear'] = 'Année et le dossier original (p. ex. Archive/2012/…)';
+$labels['archivetypefoldermonth'] = 'Année, mois et le dossier original (p. ex. Archive/2012/06/…)';
 $labels['archivetypesender'] = 'Courriel de l’expéditrice ou de l’expéditeur';
 $labels['unkownsender'] = 'inconnu';
 $labels['readonarchive'] = 'Marquer le courriel comme lu lors de l’archivage';
-?>

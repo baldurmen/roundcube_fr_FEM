@@ -5,7 +5,7 @@
  | Localization file of the Roundcube Webmail ACL plugin                 |
  |                                                                       |
  | Copyright (C) The Roundcube Dev Team                                  |
- | Copyright (C) 2018, Louis-Philippe Véronneau                          |
+ | Copyright (C) 2018-2021, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -67,9 +67,10 @@ $labels['keyadd'] = 'Ajouter une clé';
 $labels['newkeyident'] = 'Identité';
 $labels['newkeypass'] = 'Mot de passe';
 $labels['newkeypassconfirm'] = 'Confirmer le mot de passe';
-$labels['newkeysize'] = 'Taille de la clé';
-$labels['key2048'] = '2048 bits – par défaut';
-$labels['key4096'] = '4096 bits – plus sécurisé';
+$labels['newkeytype'] = 'Type de clé';
+$labels['rsa2048'] = 'RSA – 2048 bits';
+$labels['rsa4096'] = 'RSA – 4096 bits';
+$labels['ecckeypair'] = 'ECC (Courbe elliptique)';
 $labels['keygenerating'] = 'Génération des clés…';
 $labels['encryptionoptions'] = 'Options de chiffrement…';
 $labels['encryptmsg'] = 'Chiffrer ce courriel';
@@ -129,4 +130,6 @@ $messages['keygeneratesuccess'] = 'Une biclé a été générée et importée av
 $messages['keygennosupport'] = 'Votre navigateur ne prend pas en charge le chiffrement. Activez-le pour générer une biclé';
 $messages['noidentselected'] = 'Vous devez choisir au moins une identité pour la clé';
 $messages['nonameident'] = 'Un nom d’utilisatrice ou d’utilisateur doit être défini pour l’identité';
-?>
+$labels['newkeysize'] = 'Taille de la clé';
+$labels['key2048'] = '2048 bits – par défaut';
+$labels['key4096'] = '4096 bits – plus sécurisé';

@@ -5,7 +5,7 @@
  | Localization file of the Roundcube Webmail Password plugin            |
  |                                                                       |
  | Copyright (C) The Roundcube Dev Team                                  |
- | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
+ | Copyright (C) 2018-2021, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -21,7 +21,7 @@ $labels['confpasswd']  = 'Confirmer le nouveau mot de passe :';
 $messages['nopassword'] = 'Veuillez saisir le nouveau mot de passe.';
 $messages['nocurpassword'] = 'Veuillez saisir le mot de passe actuel.';
 $messages['passwordincorrect'] = 'Le mot de passe actuel est erroné.';
-$messages['passwordinconsistency'] = 'Les mots de passe ne correspondent pas, veuillez ressayer.';
+$messages['passwordinconsistency'] = 'Les mots de passe ne correspondent pas, veuillez réessayer.';
 $messages['crypterror'] = 'Impossible d’enregistrer le nouveau mot de passe. La fonction de chiffrement est manquante.';
 $messages['connecterror'] = 'Impossible d’enregistrer le nouveau mot de passe. Erreur de connexion.';
 $messages['internalerror'] = 'Impossible d’enregistrer le nouveau mot de passe.';
@@ -38,3 +38,6 @@ $messages['samepasswd'] = 'Le nouveau mot de passe doit être différent de l’
 $messages['passwdexpirewarning'] = 'Avertissement ! Votre mot de passe arrivera prochainement à expiration. Changez-le avant le $expirationdatetime.';
 $messages['passwdexpired'] = 'Votre mot de passe est expiré, vous devez le changer maintenant';
 $messages['passwdconstraintviolation'] = 'Contrainte non respectée. Le mot de passe est probablement trop faible.';
+$messages['pwned_mustnotbedisclosed'] = 'Le mot de passe ne doit pas être <a href="https://haveibeenpwned.com/Passwords" target="_blank">connu par ailleurs</a>.';
+$messages['pwned_isdisclosed'] = 'Ce mot de passe est connu par ailleurs.';
+$messages['pwned_fetcherror'] = 'Échec de vérification de la robustesse du mot de passe.'

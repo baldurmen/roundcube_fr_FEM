@@ -5,7 +5,7 @@
  | Localization file of the Roundcube Webmail Managesieve plugin         |
  |                                                                       |
  | Copyright (C) The Roundcube Dev Team                                  |
- | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
+ | Copyright (C) 2018-2021, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -188,6 +188,14 @@ $labels['asciicasemap'] = 'insensible à la casse (ascii-casemap)';
 $labels['asciinumeric'] = 'numérique (ascii-numeric)';
 $labels['index'] = 'index :';
 $labels['indexlast'] = 'à l’envers';
+$labels['spamtest'] = 'Le niveau de pourriel';
+$labels['spamtestisgreaterthan'] = 'est supérieur à';
+$labels['spamtestisgreaterthanequal'] = 'est supérieur ou égal à';
+$labels['spamtestislessthan'] = 'est inférieur à';
+$labels['spamtestislessthanequal'] = 'est inférieur ou égal à';
+$labels['spamtestequals'] = 'est égal à';
+$labels['spamtestnotequals'] = 'est différent de';
+$labels['spamtestisunknown'] = 'est inconnu';
 $labels['vacation'] = 'Avis d’absence';
 $labels['vacation.reply'] = 'Courriel de réponse';
 $labels['vacation.advanced'] = 'Paramètres avancés';
@@ -234,7 +242,7 @@ $labels['duplicate.uniqueid'] = 'identifiant :';
 $labels['duplicate.seconds'] = 'temporisation (secondes) :';
 $labels['duplicate.last'] = 'par rapport à la dernière exécution';
 $messages['filterunknownerror'] = 'Erreur de serveur inconnue';
-$messages['filterconnerror'] = 'Connexion au serveur impossible.';
+$messages['filterconnerror'] = 'La connexion au serveur n’aboutit pas.';
 $messages['filterdeleteerror'] = 'Impossible de supprimer le filtre. Une erreur de serveur est survenue.';
 $messages['filterdeleted'] = 'Le filtre a été supprimé avec succès.';
 $messages['filtersaved'] = 'Le filtre a été enregistré avec succès.';

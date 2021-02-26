@@ -5,7 +5,7 @@
  | Localization file of the Roundcube Webmail ACL plugin                 |
  |                                                                       |
  | Copyright (C) The Roundcube Dev Team                                  |
- | Copyright (C) 2018-2019, Louis-Philippe Véronneau                     |
+ | Copyright (C) 2018-2021, Louis-Philippe Véronneau                     |
  |                                                                       |
  | Licensed under the GNU General Public License version 3 or            |
  | any later version with exceptions for skins & plugins.                |
@@ -95,4 +95,3 @@ $messages['createerror'] = 'Impossible d’ajouter des droits d’accès';
 $messages['deleteconfirm'] = 'Êtes-vous certain-e de vouloir retirer les droits d’accès des utilisatrices ou des utilisateurs sélectionnés ?';
 $messages['norights'] = 'Aucun droit n’a été indiqué.';
 $messages['nouser'] = 'Aucun nom d’utilisatrice ou d’utilisateur n’a été indiqué';
-?>
